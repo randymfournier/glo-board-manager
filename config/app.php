@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+         Nullun1t\GloBoardManager\GloBoardManagerServiceProvider::class,
 
         /*
          * Application Service Providers...

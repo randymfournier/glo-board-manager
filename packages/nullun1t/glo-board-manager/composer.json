@@ -1,0 +1,12 @@
+{
+    "name": "nullun1t/glo-board-manager",
+    "description": "This package is a manager for glo-boards",
+    "authors": [
+        {
+            "name": "Randy Fournier",
+            "email": "randymfournier@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
