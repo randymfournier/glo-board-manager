@@ -38,10 +38,10 @@
             </div>
 
             <ul class="list-unstyled components">
-                <!-- <p>User Name</p> -->
+                <!-- <p>User Name</p> --> <!-- Heading  -->
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <a href="#gbm-dash" data-toggle="collapse" aria-expanded="false">Dashboard</a>
+                    <ul class="collapse list-unstyled" id="gbm-dash">
                         <li>
                             <a href="#">Home 1</a>
                         </li>
@@ -54,9 +54,8 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">About</a>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <a href="#gbm-boards" data-toggle="collapse" aria-expanded="false">Boards</a>
+                    <ul class="collapse list-unstyled" id="gbm-boards">
                         <li>
                             <a href="#">Page 1</a>
                         </li>
@@ -69,19 +68,36 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="#gbm-cards" data-toggle="collapse" aria-expanded="false">Cards</a>
+                    <ul class="collapse list-unstyled" id="gbm-cards">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                  <a href="#">Board Designer</a>
+                </li>
+                <li>
+                  <a href="#">Users</a>
+                </li>
+                <li>
+                  <a href="#">Archives</a>
                 </li>
             </ul>
 
             <ul class="list-unstyled CTAs">
                 <li>
-                    <!-- <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a> -->
+                    <a href="#" class="download">Export</a>
                 </li>
                 <li>
-                    <!-- <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="download">Back to article</a> -->
+                    <a href="#" class="download">Import</a>
                 </li>
             </ul>
         </nav>
@@ -91,7 +107,7 @@
         <!-- Page Content  -->
         <div id="content">
 
-            <nav class="navbar navbar-expand-lg gbm-navbar">
+            <nav class="navbar navbar-expand-lg gbm-navbar sticky-top" id="gbm-content-navbar">
                 <div class="container-fluid">
 
                   <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
@@ -131,6 +147,8 @@
             </nav>
 
             <div class="container-fluid">
+              <h3>Landing Page</h3>
+              <!--
               <h2>Collapsible Sidebar Using Bootstrap 4</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -149,6 +167,7 @@
 
               <h3>Lorem Ipsum Dolor</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              -->
             </div>
 
         </div>
