@@ -1,11 +1,20 @@
 /*
-    DEMO STYLE
+    THEME
 */
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
+}
+
+/*  NEON Heading */
+h3 {
+  font-size: 60px;
+  font-family: 'Futura';
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+  text-align: center;
 }
 
 p {
@@ -46,6 +55,31 @@ a:focus {
     margin: 40px 0;
 }
 
+/* Menu Toggle Btn */
+.gbm-btn-menu {
+  background-color: #1a4152;
+  color: #b0ccd3;
+}
+
+.gbm-btn-menu:hover {
+  color: rgba(58, 128, 147, 0.9);
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.gbm-navbar {
+  background-color: #21313f;
+}
+
+.gbm-avatar {
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -57,8 +91,8 @@ a:focus {
     left: -250px;
     height: 100vh;
     z-index: 999;
-    background: #7386D5;
-    color: #fff;
+    background: rgb(33, 49, 63);
+    color: #b1c4c8;
     transition: all 0.3s;
     overflow-y: scroll;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
@@ -73,7 +107,8 @@ a:focus {
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background: #7386D5;
+    font-size: 1.5em;
+    /* background: #7386D5; */
     position: absolute;
     top: 10px;
     right: 10px;
@@ -84,7 +119,6 @@ a:focus {
 }
 
 #dismiss:hover {
-    background: #fff;
     color: #7386D5;
 }
 
@@ -105,16 +139,16 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    border-bottom: 2px solid #47748b;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 2px solid #47748b;
 }
 
 #sidebar ul p {
-    color: #fff;
+    color: #b1c4c8;
     padding: 10px;
 }
 
@@ -125,14 +159,14 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
+    color: #b1c4c8;
+    background: #1a4152;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
+    color: #b1c4c8;
+    background: #1a4152;
 }
 
 a[data-toggle="collapse"] {
@@ -150,7 +184,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: rgba(33, 49, 63, 0);
 }
 
 ul.CTAs {
@@ -167,13 +201,7 @@ ul.CTAs a {
 
 a.download {
     background: #fff;
-    color: #7386D5;
-}
-
-a.article,
-a.article:hover {
-    background: #6d7fcc !important;
-    color: #fff !important;
+    color: #47748b;
 }
 
 /* ---------------------------------------------------
@@ -182,10 +210,11 @@ a.article:hover {
 
 #content {
     width: 100%;
-    padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
     position: absolute;
     top: 0;
     right: 0;
+    background-color: #1b2126;
+    color: #b1c4c8;
 }
