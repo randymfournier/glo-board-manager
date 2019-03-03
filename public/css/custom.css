@@ -80,6 +80,22 @@ a:focus {
   border-radius: 50%;
 }
 
+.gbm-reg-form-header {
+  font-size: 2em;
+}
+
+form .form-group {
+  padding-bottom: 1em;
+}
+
+.card {
+  border: 2px solid #47748b;
+}
+
+.card-header,.card-body,.card-footer {
+  background-color: #262633;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */

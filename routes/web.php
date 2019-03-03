@@ -12,8 +12,7 @@
 */
 
 Route::get('/', function () {
-    // return 'HomePage';
-    return view('welcome');
+    return 'HomePage';
 });
 
 Route::get('/gbm', 'APIController@index');
